@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0e2131">
+  <meta name="description" content="IELTS Mock Studio: original practice tests for Academic Reading, Listening, Writing and Speaking, with progress tracking. Offline and open source.">
+  <title>IELTS Mock Studio — Complete Practice Workspace</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+      <a class="brand" href="#overview" data-nav="overview" aria-label="IELTS Mock Studio dashboard">
+        <span class="brand-mark">I<span>.</span></span>
+        <span><b>IELTS Mock Studio</b><small>YOUR PRACTICE WORKSPACE</small></span>
+      </a>
+      <div class="nav-label">WORKSPACE</div>
+      <nav id="nav"></nav>
+      <div class="sidebar-spacer"></div>
+      <div class="sidebar-note"><span class="dot"></span> All data stays in this browser <span class="subtle">Offline-first · No sign-in</span></div>
+      <div class="sidebar-bottom">Independent IELTS preparation app<br><span>Not affiliated with IELTS or its partners.</span></div>
+    </aside>
+    <div class="main-column">
+      <header class="topbar">
+        <button class="icon-button menu-button" id="menu-toggle" aria-label="Open menu">☰</button>
+        <div class="crumb" id="crumb">Dashboard <span>/ Overview</span></div>
+        <div class="top-actions"><span class="today-label" id="today"></span><div class="avatar">IM</div></div>
+      </header>
+      <main id="app" aria-live="polite"></main>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/scoring.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "ielts-mock-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline-first IELTS practice application with Listening, Academic Reading, Academic Writing, Speaking and progress tracking.",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "start": "python -m http.server 8000"
+  },
+  "keywords": ["ielts", "mock-exam", "academic-reading", "speaking", "writing", "listening", "offline-first"],
+  "license": "MIT"
+}
